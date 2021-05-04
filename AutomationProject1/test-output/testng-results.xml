@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The Nun added to my list]]>
+    </line>
+    <line>
+      <![CDATA[John Wick added to my list]]>
+    </line>
+    <line>
+      <![CDATA[Shutter Island added to my list]]>
+    </line>
+    <line>
+      <![CDATA[Master Movie not available]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-04T09:33:09 IST" name="Netflix Testing" finished-at="2021-05-04T09:35:37 IST" duration-ms="148491">
+    <groups>
+    </groups>
+    <test started-at="2021-05-04T09:33:09 IST" name="Netflix" finished-at="2021-05-04T09:35:37 IST" duration-ms="148491">
+      <class name="com.qa.testscripts.TC_Netflix_01">
+        <test-method is-config="true" signature="Setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:33:09 IST" name="Setup" finished-at="2021-05-04T09:33:16 IST" duration-ms="7571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.netflix.com/in/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Login()[pri:1, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:33:16 IST" name="Login" finished-at="2021-05-04T09:33:28 IST" duration-ms="11403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AddMovieToMyList(java.lang.String)[pri:2, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:33:31 IST" name="AddMovieToMyList" data-provider="MovieName" finished-at="2021-05-04T09:34:09 IST" duration-ms="38570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Nun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Nun added to my list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddMovieToMyList -->
+        <test-method signature="AddMovieToMyList(java.lang.String)[pri:2, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:34:09 IST" name="AddMovieToMyList" data-provider="MovieName" finished-at="2021-05-04T09:34:47 IST" duration-ms="37692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Wick]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[John Wick added to my list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddMovieToMyList -->
+        <test-method signature="AddMovieToMyList(java.lang.String)[pri:2, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:34:47 IST" name="AddMovieToMyList" data-provider="MovieName" finished-at="2021-05-04T09:35:25 IST" duration-ms="37970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shutter Island]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Shutter Island added to my list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddMovieToMyList -->
+        <test-method signature="AddMovieToMyList(java.lang.String)[pri:2, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:35:25 IST" name="AddMovieToMyList" data-provider="MovieName" finished-at="2021-05-04T09:35:37 IST" duration-ms="11910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Master]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Master Movie not available]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddMovieToMyList -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.testscripts.TC_Netflix_01@6a84a97d]" started-at="2021-05-04T09:35:37 IST" name="Teardown" finished-at="2021-05-04T09:35:37 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.qa.testscripts.TC_Netflix_01 -->
+    </test> <!-- Netflix -->
+  </suite> <!-- Netflix Testing -->
+</testng-results>
